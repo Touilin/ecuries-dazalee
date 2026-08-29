@@ -107,3 +107,46 @@
     font-family: Arial, sans-serif;
     letter-spacing: 2px;
 }
+/* ALIGNEMENT PARFAIT DES 4 PRESTATIONS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
+}
+
+.cards article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 385px;
+    padding: 20px 45px;
+}
+
+.cards article .card-icon {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.cards article h3 {
+    min-height: 20px;
+    margin-bottom: 20px;
+}
+
+.cards article p {
+    min-height: 75px;
+    margin: 0;
+}
+
+.cards article .price {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cards article .price-line {
+    margin: 0 auto 22px;
+}
