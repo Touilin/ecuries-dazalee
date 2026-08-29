@@ -20,3 +20,6 @@
     height: 65px;
     object-fit: contain;
 }
+.hero-title {
+    text-transform: uppercase;
+}
