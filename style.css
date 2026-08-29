@@ -6,12 +6,12 @@
 }
 
 .brand-name small {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 3px;
 }
 
 .brand-name strong {
-    font: 600 26px/1 Cormorant Garamond, serif;
+    font: 600 22px/1 Cormorant Garamond, serif;
     letter-spacing: 1px;
 }
 
