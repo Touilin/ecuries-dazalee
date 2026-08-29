@@ -42,7 +42,8 @@
     background-repeat: no-repeat;
 }
 .ecurie {
-    background-image: url("./ecurie2.jpg") !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("./ecurie2.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
