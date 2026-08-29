@@ -29,3 +29,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.card {
+    background-image: url('installations.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
