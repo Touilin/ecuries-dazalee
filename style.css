@@ -29,8 +29,8 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.installations {
-    background-image: url('installations.jpg');
+.installation {
+    background-image: url("./installations.jpg") !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
