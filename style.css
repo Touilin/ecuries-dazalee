@@ -23,4 +23,9 @@
 .hero-title {
     text-transform: uppercase;
 }
-
+.hero {
+    background-image: url('plage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
