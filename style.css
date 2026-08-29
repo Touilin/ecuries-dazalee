@@ -50,4 +50,60 @@
 .dark-section {
     background: #C86428;
 }
+/* =====================================
+   PRESTATIONS : ICÔNES ET TARIFS
+===================================== */
 
+.card-icon {
+    display: block;
+    font-size: 34px;
+    line-height: 1;
+    margin-bottom: 28px;
+    color: #f8eee3;
+}
+
+
+/* Espace entre description et tarif */
+
+.price {
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+
+
+/* Petit trait décoratif */
+
+.price-line {
+    width: 85px;
+    height: 1px;
+    background-color: #dba47d;
+    margin: 0 auto 22px;
+}
+
+
+/* Texte À PARTIR DE */
+
+.from {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #fff4ea;
+}
+
+
+/* Prix */
+
+.price-value {
+    color: #f0c19d;
+    font-size: 32px;
+    font-family: Georgia, serif;
+    letter-spacing: 2px;
+}
+
+
+.price-value span {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
