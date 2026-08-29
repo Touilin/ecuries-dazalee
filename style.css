@@ -35,9 +35,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.cheval {
+.tall {
     background-image: url("./cheval.jpg") !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
