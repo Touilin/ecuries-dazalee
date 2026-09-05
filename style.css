@@ -305,3 +305,81 @@ footer {
     text-transform: uppercase;
     white-space: nowrap;
 }
+/* =====================================================
+   GRILLE DES PRESTATIONS
+   ===================================================== */
+
+.prestations {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr 1fr !important;
+    grid-template-rows: 140px 140px 140px !important;
+    gap: 5px !important;
+    width: 100% !important;
+    max-width: 1135px !important;
+    height: 431px !important;
+    margin: 0 auto !important;
+}
+
+.prestation {
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Images */
+.prestation img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+/* Carrière / Manège */
+.prestation.carriere {
+    grid-column: 1 !important;
+    grid-row: 1 / 3 !important;
+}
+
+/* Paddocks */
+.prestation.paddocks {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+}
+
+/* Écurie */
+.prestation.ecurie {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+}
+
+/* Sellerie */
+.prestation.sellerie {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+}
+
+/* Extérieurs */
+.prestation.exterieurs {
+    grid-column: 2 / 4 !important;
+    grid-row: 3 !important;
+}
+
+/* Étiquette sur les photos */
+.prestation span {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 2 !important;
+
+    background: rgba(65, 68, 52, 0.85) !important;
+    color: white !important;
+    padding: 7px 12px !important;
+
+    font-size: 9px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    white-space: nowrap !important;
+}
