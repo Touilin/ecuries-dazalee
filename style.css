@@ -365,4 +365,9 @@ footer {
     grid-column: 2 / 4 !important;
     grid-row: 3 !important;
 }
-
+.news-photo {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
