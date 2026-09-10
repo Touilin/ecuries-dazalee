@@ -395,4 +395,94 @@ footer {
 .contact-info {
     flex: 0 0 45%;
 }
+/* =========================
+   NOS ENGAGEMENTS
+   ========================= */
+
+.engagements {
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+/* Photo à gauche */
+.engagements-image {
+    width: 50%;
+}
+
+.engagements-image img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Texte à droite */
+.engagements-text {
+    width: 50%;
+}
+
+.section-label {
+    color: #c95f24;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.engagements-text h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0 0 30px;
+    color: #333;
+}
+
+.quote {
+    font-size: 24px;
+    line-height: 1.7;
+    font-style: italic;
+    color: #444;
+    margin: 0;
+}
+
+.signature {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+}
+
+/* Version téléphone */
+@media (max-width: 768px) {
+
+    .engagements {
+        flex-direction: column;
+        gap: 40px;
+        margin: 60px auto;
+        padding: 0 25px;
+    }
+
+    .engagements-image,
+    .engagements-text {
+        width: 100%;
+    }
+
+    .engagements-image img {
+        height: 350px;
+    }
+
+    .engagements-text h2 {
+        font-size: 30px;
+    }
+
+    .quote {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
 
