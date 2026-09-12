@@ -525,4 +525,43 @@ section {
 .contact-info .button.light {
     transform: translateY(-20px);
 }
+/* ===== CONTACT : ALIGNEMENT DU CONTENU ===== */
 
+#contact {
+    width: calc(100% - 216px);
+    margin-left: 108px;
+    margin-top: 60px;
+    margin-bottom: 60px !important;
+
+    background-color: #c95f24;
+    box-sizing: border-box;
+
+    padding: 65px 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+
+    align-items: center;
+}
+
+/* Colonne de gauche */
+#contact > div:first-child {
+    width: 100%;
+}
+
+/* Colonne de droite */
+#contact .contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Bouton */
+#contact .button.light {
+    margin-top: 5px;
+    transform: none;
+    align-self: flex-start;
+}
