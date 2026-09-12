@@ -674,3 +674,7 @@ section {
     margin-left: 5px;
     letter-spacing: 1px;
 }
+/* Descendre tous les encadrés de prix */
+.cards article .price {
+    transform: translateY(15px);
+}
