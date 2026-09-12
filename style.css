@@ -489,3 +489,7 @@ footer {
     font: 500 54px/.95 Cormorant Garamond, serif;
     margin: 10px 0 28px;
 }
+/* Réduit l'espace avant les actualités */
+.actualites {
+    margin-top: -100px !important;
+}
