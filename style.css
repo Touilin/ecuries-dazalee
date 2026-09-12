@@ -511,4 +511,11 @@ section {
     letter-spacing: 2px;
     color: #77736a;
 }
+nav a {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #77736a;
+}
 
