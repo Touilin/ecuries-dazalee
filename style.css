@@ -512,10 +512,11 @@ section {
     color: #77736a;
 }
 nav a {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #77736a;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    letter-spacing: 2px !important;
+    color: #77736a !important;
 }
+
 
