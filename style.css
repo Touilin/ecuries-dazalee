@@ -503,4 +503,12 @@ section {
     letter-spacing: 0;
     font-style: normal;
 }
+.quote-author {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #77736a;
+}
 
