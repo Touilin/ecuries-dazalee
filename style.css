@@ -566,3 +566,49 @@ section {
     margin-top: 80 !important;
     margin-bottom: 80 !important;
 }
+/* =====================================
+   AMÉLIORATION DES BLOCS PENSIONS
+   ===================================== */
+
+/* Descriptifs plus grands */
+.cards article p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    color: #fff4ea !important;
+}
+
+/* Encadré uniquement autour du prix */
+.cards article .price {
+    background: #e8d8c4;
+    padding: 18px 25px 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Petit trait au-dessus du prix */
+.cards article .price-line {
+    background-color: #c86428;
+    margin-bottom: 15px;
+}
+
+/* "À PARTIR DE" */
+.cards article .from {
+    color: #5a4638;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+}
+
+/* Prix */
+.cards article .price-value {
+    color: #263026;
+    font-size: 32px;
+}
+
+/* / MOIS et / COURS */
+.cards article .price-value span {
+    color: #263026;
+    font-size: 14px;
+}
