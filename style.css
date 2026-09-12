@@ -519,10 +519,10 @@ section {
     text-transform: uppercase;
     color: #8b8478;
 }
-#contact {
-    margin-bottom: 60px !important;
-}
 .contact-info .button.light {
     transform: translateY(-20px);
 }
-
+#contact {
+    padding-bottom: 60px !important;
+    margin-bottom: 60px !important;
+}
