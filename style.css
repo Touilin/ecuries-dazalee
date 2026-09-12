@@ -533,4 +533,31 @@ section {
 #contact {
     scroll-margin-top: 100px;
 }
+.section {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
 
+/* Titre des sections */
+.section .center {
+    margin-bottom: 45px;
+}
+
+/* Installations */
+#installations {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+/* Engagements */
+.engagements {
+    margin: 0 auto !important;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+/* Contact */
+#contact {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
