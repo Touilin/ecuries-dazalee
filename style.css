@@ -519,8 +519,8 @@ section {
     text-transform: uppercase;
     color: #8b8478;
 }
-.contact {
-    margin-bottom: 60px;
+#contact {
+    margin-bottom: 60px !important;
 }
 
 
