@@ -380,7 +380,7 @@ footer {
     margin-left: 108px;
     margin-top: 60px;
     background-color: #c95f24;
-    padding: 55px 10%;
+    padding: 55px 10% 75px;
     box-sizing: border-box;
 
     display: flex;
