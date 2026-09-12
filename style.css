@@ -533,3 +533,25 @@ section {
 #contact {
     scroll-margin-top: 100px;
 }
+/* ESPACEMENT UNIFORME ENTRE LES SECTIONS */
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Évite les espaces supplémentaires entre le titre et le contenu */
+.section .center {
+    margin-bottom: 50px;
+}
+
+/* Section installations */
+#installations {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Section engagements */
+.engagements {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
