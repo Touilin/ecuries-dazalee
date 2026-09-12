@@ -676,5 +676,5 @@ section {
 }
 /* Descendre tous les encadrés de prix */
 .cards article .price {
-    transform: translateY(15px);
+    transform: translateY(20px);
 }
