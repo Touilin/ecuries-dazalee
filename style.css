@@ -485,3 +485,7 @@ footer {
         line-height: 1.6;
     }
 }
+.copy h2,.center h2,.contact h2,.engagements-text h2 {
+    font: 500 54px/.95 Cormorant Garamond, serif;
+    margin: 10px 0 28px;
+}
