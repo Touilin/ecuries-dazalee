@@ -612,19 +612,21 @@ section {
     color: #263026;
     font-size: 14px;
 }
-/* PRIX DES PENSIONS */
+/* =====================================
+   PRIX - VERSION HARMONIEUSE
+   ===================================== */
 
 .cards article .price {
     width: 200px !important;
-    height: 125px !important;
+    height: 110px !important;
+    box-sizing: border-box;
+
     background: #e8d8c4 !important;
     border-radius: 12px !important;
 
     margin-top: auto !important;
     margin-bottom: 25px !important;
-
-    padding: 16px 20px !important;
-    box-sizing: border-box;
+    padding: 14px 15px !important;
 
     display: flex;
     flex-direction: column;
@@ -632,7 +634,43 @@ section {
     justify-content: center;
 }
 
-.cards article p {
-    font-size: 15px !important;
-    line-height: 1.7 !important;
+/* Petit trait */
+.cards article .price-line {
+    width: 60px !important;
+    height: 1px;
+    background-color: #c86428 !important;
+    margin: 0 auto 10px !important;
+}
+
+/* À PARTIR DE */
+.cards article .from {
+    color: #5a4638 !important;
+    font-size: 10px !important;
+    letter-spacing: 3px;
+    margin-bottom: 7px !important;
+    line-height: 1;
+}
+
+/* Prix + / MOIS sur la même ligne */
+.cards article .price-value {
+    display: flex !important;
+    align-items: baseline !important;
+    justify-content: center;
+    white-space: nowrap !important;
+
+    color: #263026 !important;
+    font-size: 29px !important;
+    line-height: 1 !important;
+    letter-spacing: 1px;
+}
+
+/* / MOIS / COURS */
+.cards article .price-value span {
+    display: inline !important;
+    white-space: nowrap !important;
+
+    color: #263026 !important;
+    font-size: 12px !important;
+    margin-left: 5px;
+    letter-spacing: 1px;
 }
