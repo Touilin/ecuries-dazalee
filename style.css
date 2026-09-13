@@ -683,19 +683,19 @@ html {
 }
 
 #actualites {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 30px;
 }
 
 #engagements {
-    scroll-margin-top: 50px !important;
+    scroll-margin-top: 30px !important;
 }
 
 #installations {
-    scroll-margin-top: 40px !important;
+    scroll-margin-top: 30px !important;
 }
 
 #a-propos {
-    scroll-margin-top: 40px !important;
+    scroll-margin-top: 30px !important;
 }
 /* ALIGNEMENT DES 4 BLOCS DE PRIX */
 .cards article {
