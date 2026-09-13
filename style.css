@@ -706,3 +706,8 @@ html {
 .cards article .price {
     margin-top: auto !important;
 }
+/* Description - partie À PROPOS */
+#a-propos .copy p {
+    font-size: 16px !important;
+    line-height: 1.9 !important;
+}
