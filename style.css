@@ -683,10 +683,12 @@ html {
 }
 
 #actualites {
-  scroll-margin-top: 60px;
+    scroll-margin-top: 60px;
 }
 
 #engagements {
-  scroll-margin-top: 20px;
+    scroll-margin-top: 0 !important;
+    padding-top: 0 !important;
 }
+
 
