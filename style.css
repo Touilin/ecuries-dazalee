@@ -691,7 +691,7 @@ html {
 }
 
 #contact {
-    scroll-margin-top: 50px !important;
+    scroll-margin-top: -40px !important;
 }
 
 #installations {
